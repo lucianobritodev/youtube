@@ -43,19 +43,19 @@ public class ProdutoController {
 
     @PostMapping("/v1")
     public ResponseEntity<ProdutoDto> criar(@RequestBody @NotBlank ProdutoDto produtoDto) {
-        return ResponseEntity.ok(produtoService.criar(produtoDto));
+        produtoDto = produtoService.criar(produtoDto);
+        URI uri = ServletUriComponentsBuilder.fromCurrentRequest()
+                .path("/{id}")
+                .buildAndExpand(produtoDto.getId())
+                .toUri();
+        return ResponseEntity.created(uri).body(produtoDto);
     }
 
     @PutMapping("/v1/{id}")
     public ResponseEntity<ProdutoDto> atualizar(@PathVariable("id") @NotNull UUID id,
                                                 @RequestBody @NotBlank ProdutoDto produtoDto) {
 
-        produtoDto = produtoService.atualizar(id, produtoDto);
-        URI uri = ServletUriComponentsBuilder.fromCurrentRequest()
-                .path("/{id}")
-                .buildAndExpand(produtoDto.getId())
-                .toUri();
-        return ResponseEntity.created(uri).body(produtoDto);
+        return ResponseEntity.ok(produtoService.atualizar(id, produtoDto));
     }
 
     @PatchMapping("/v1/{id}")
