@@ -1,6 +1,6 @@
-package com.lucianobrito.testesunitarios.infra.repositories;
+package com.lucianobrito.youtube.infra.repositories;
 
-import com.lucianobrito.testesunitarios.domain.entities.Produto;
+import com.lucianobrito.youtube.domain.entities.Produto;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;

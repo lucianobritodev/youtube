@@ -1,4 +1,4 @@
-package com.lucianobrito.testesunitarios.commons.exceptions;
+package com.lucianobrito.youtube.commons.exceptions;
 
 public class ResourceNotFoundException extends RuntimeException {
     public ResourceNotFoundException(String message) {

@@ -1,6 +1,6 @@
-package com.lucianobrito.testesunitarios.domain.entities;
+package com.lucianobrito.youtube.domain.entities;
 
-import com.lucianobrito.testesunitarios.domain.dtos.ProdutoDto;
+import com.lucianobrito.youtube.domain.dtos.ProdutoDto;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
