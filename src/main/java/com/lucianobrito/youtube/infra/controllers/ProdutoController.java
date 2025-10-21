@@ -1,7 +1,7 @@
-package com.lucianobrito.testesunitarios.infra.controllers;
+package com.lucianobrito.youtube.infra.controllers;
 
-import com.lucianobrito.testesunitarios.domain.dtos.ProdutoDto;
-import com.lucianobrito.testesunitarios.domain.services.ProdutoService;
+import com.lucianobrito.youtube.domain.dtos.ProdutoDto;
+import com.lucianobrito.youtube.domain.services.ProdutoService;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 import lombok.AllArgsConstructor;

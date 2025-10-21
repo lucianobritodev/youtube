@@ -1,10 +1,10 @@
-package com.lucianobrito.testesunitarios.domain.services.impl;
+package com.lucianobrito.youtube.domain.services.impl;
 
-import com.lucianobrito.testesunitarios.commons.exceptions.BusinessException;
-import com.lucianobrito.testesunitarios.commons.exceptions.ResourceNotFoundException;
-import com.lucianobrito.testesunitarios.domain.dtos.ProdutoDto;
-import com.lucianobrito.testesunitarios.domain.entities.Produto;
-import com.lucianobrito.testesunitarios.infra.repositories.ProdutoRepository;
+import com.lucianobrito.youtube.commons.exceptions.BusinessException;
+import com.lucianobrito.youtube.commons.exceptions.ResourceNotFoundException;
+import com.lucianobrito.youtube.domain.dtos.ProdutoDto;
+import com.lucianobrito.youtube.domain.entities.Produto;
+import com.lucianobrito.youtube.infra.repositories.ProdutoRepository;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

@@ -1,6 +1,6 @@
-package com.lucianobrito.testesunitarios.domain.dtos;
+package com.lucianobrito.youtube.domain.dtos;
 
-import com.lucianobrito.testesunitarios.domain.entities.Produto;
+import com.lucianobrito.youtube.domain.entities.Produto;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

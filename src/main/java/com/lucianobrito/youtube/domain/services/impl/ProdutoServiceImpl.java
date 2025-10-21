@@ -1,11 +1,11 @@
-package com.lucianobrito.testesunitarios.domain.services.impl;
+package com.lucianobrito.youtube.domain.services.impl;
 
-import com.lucianobrito.testesunitarios.commons.exceptions.ResourceNotFoundException;
-import com.lucianobrito.testesunitarios.domain.dtos.ProdutoDto;
-import com.lucianobrito.testesunitarios.domain.entities.Produto;
-import com.lucianobrito.testesunitarios.domain.services.BaseService;
-import com.lucianobrito.testesunitarios.domain.services.ProdutoService;
-import com.lucianobrito.testesunitarios.infra.repositories.ProdutoRepository;
+import com.lucianobrito.youtube.commons.exceptions.ResourceNotFoundException;
+import com.lucianobrito.youtube.domain.dtos.ProdutoDto;
+import com.lucianobrito.youtube.domain.entities.Produto;
+import com.lucianobrito.youtube.domain.services.BaseService;
+import com.lucianobrito.youtube.domain.services.ProdutoService;
+import com.lucianobrito.youtube.infra.repositories.ProdutoRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

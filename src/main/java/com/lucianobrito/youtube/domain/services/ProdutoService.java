@@ -1,6 +1,6 @@
-package com.lucianobrito.testesunitarios.domain.services;
+package com.lucianobrito.youtube.domain.services;
 
-import com.lucianobrito.testesunitarios.domain.dtos.ProdutoDto;
+import com.lucianobrito.youtube.domain.dtos.ProdutoDto;
 
 import java.util.List;
 import java.util.UUID;

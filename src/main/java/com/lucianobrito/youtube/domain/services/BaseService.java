@@ -1,6 +1,6 @@
-package com.lucianobrito.testesunitarios.domain.services;
+package com.lucianobrito.youtube.domain.services;
 
-import com.lucianobrito.testesunitarios.commons.exceptions.BusinessException;
+import com.lucianobrito.youtube.commons.exceptions.BusinessException;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
