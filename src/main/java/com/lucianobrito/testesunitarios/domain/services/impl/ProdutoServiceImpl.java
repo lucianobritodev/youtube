@@ -49,8 +49,6 @@ public class ProdutoServiceImpl extends BaseService implements ProdutoService {
             Produto newProduto = new Produto(produtoDto);
             newProduto = produtoRepository.save(newProduto);
             return new ProdutoDto(newProduto);
-        } catch (ResourceNotFoundException e) {
-            throw handlerLogError(e);
         } catch (Exception e) {
             throw handlerLogBusinessError(e);
         }
